@@ -1,0 +1,74 @@
+/* Impostazioni generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #90EE90; /* Verde chiaro */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: black;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px; /* Dimensione del logo */
+    height: auto;
+}
+
+/* Descrizione app */
+.app-description {
+    padding: 30px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.app-description h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.app-description p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.app-description ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app-description ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #000; /* Nero */
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
